@@ -31,3 +31,13 @@ html,body{
 .rbc-calendar{
   height: 100vh;
 }
+
+.react-datetime-picker input:focus{
+  outline: none;
+}
+
+.react-datetime-picker__wrapper{
+  display: flex;
+  border:0px solid grey !important;
+}
+
