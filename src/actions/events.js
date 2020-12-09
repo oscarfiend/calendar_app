@@ -13,3 +13,16 @@ export const eventSetActive = (event) => ({
 export const eventClearActive = () => ({
     type: types.eventCleanActive
 })
+
+export const eventUpdated = (event) => ({
+    type: types.eventUpdated,
+    payload:event
+})
+
+export const eventDeleted=()=>{
+    console.log("entor al action")
+    return{
+        type:types.eventDeleted
+    }
+}
+
