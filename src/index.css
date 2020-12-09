@@ -41,3 +41,12 @@ html,body{
   border:0px solid grey !important;
 }
 
+.fab-btn {
+  border-radius: 100% !important;
+  bottom: 25px;
+  font-size: 30px;
+  padding: 10px 15px;
+  position: fixed;
+  right: 25px;
+}
+
